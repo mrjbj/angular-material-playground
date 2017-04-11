@@ -1,5 +1,5 @@
 <md-toolbar color="primary">
-  <span>GameViewer</span>
+  <span>Game Viewer</span>
   <span class="spacer"></span>
   <button md-icon-button [mdMenuTriggerFor]="menu">
       <md-icon>more_vertical</md-icon>
@@ -39,6 +39,13 @@
     </md-card>
   </md-tab>
   <md-tab label = "Settings">
-
+    <div id="page-padding">
+      <h1>Settings</h1>
+      <p>Here you can control various settings associated with the app.  There's no need for 'save' button as values are persisted automatically.</p>
+      <label>Number of thumbnails</label>
+      <md-slider showTicks="true" max="100" min="0" step="1" thumbLabel="true" value="18">
+      </md-slider>
+      <md-slide-toggle>Some on/off setting</md-slide-toggle>
+    </div>
   </md-tab>
 </md-tab-group>
