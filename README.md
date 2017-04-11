@@ -1,6 +1,10 @@
 # AngularMaterialPlayground
+Based upon tutorial found at:
+
+https://coursetro.com/posts/code/29/Working-with-Angular-2-Material
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
 
 ## Development server
 
